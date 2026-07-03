@@ -26,9 +26,9 @@ document.addEventListener("DOMContentLoaded", function () {
         footerElement.innerHTML = `
             <p>&copy; 2026 mustapha Belhaouari. Tous droits réservés.</p>
             <div class="social-links">
-                <a href="#" target="_blank" rel="noopener">LinkedIn</a>
-                <a href="#" target="_blank" rel="noopener">GitHub</a>
-                <a href="#" target="_blank" rel="noopener">Twitter</a>
+               <a href="https://ca.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://mustapha-stack.github.io/vCard/" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://x.com/?lang=en-ca" target="_blank" rel="noopener">Twitter</a>
             </div>
         `;
     }
