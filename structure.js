@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (headerElement) {
         headerElement.innerHTML = `
         <div class="logo-container">
-            <img src="../image/autochtones_quebec.jpg" alt="Belhaouari" class="avatar">
+            <img src="./image/autochtones_quebec.jpg" alt="Belhaouari" class="avatar">
             <h1>Belhaouari</h1>
         </div>
         <nav>
