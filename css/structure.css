@@ -1,0 +1,136 @@
+
+/*(Le sélecteur universel)*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ==========================================================================
+   1. VARIABLES
+   ========================================================================== */
+:root {
+    --primary-color: #2c3e50;    /* Bleu sombre professionnel */
+    --secondary-color: #1abc9c;  /* Turquoise pour les accents/liens */
+    --light-bg: #f8f9fa;         /* Fond clair pour le corps */
+    --dark-text: #333333;        /* Texte principal */
+    --white: #ffffff;
+    --transition: all 0.3s ease;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: var(--light-bg);
+    color: var(--dark-text);
+}
+
+
+
+/* ==========================================================================
+   2. HEADER & NAVIGATION
+   ========================================================================== */
+
+header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    position: sticky;
+    
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;  /*remplir les dimention */
+    border: 2px solid var(--secondary-color);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;/*supprimer les puces noires (les petits points ou les numéros)
+     que le navigateur ajoute automatiquement devant les éléments d'une liste (<ul> ou <ol>).*/
+    gap: 20px;
+}
+
+
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    /* text-decoration supprimer les décorations de texte automatiques, et plus particulièrement 
+    le soulignement bleu que les navigateurs ajoutent par défaut sur les liens hypertextes (<a>).*/
+    font-weight: 500;
+    padding: 5px 10px;
+    transition: var(--transition);
+}
+
+
+
+nav a:hover, nav a.active {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+
+
+/* ==========================================================================
+   3. CONTENU  Main
+   ========================================================================== */
+main {
+    min-height: 80vh; /*la hauteur de l'écran*/
+    padding: 2rem 5%; 
+    /*La première valeur (2rem) s'applique en Haut et en Bas.La  texte de base 16 pixel
+    deuxième valeur (5%) s'applique à Gauche et à Droite.*/
+}
+
+ 
+section {
+    padding: 10px 20px;
+    max-width: 800px;
+    margin: 0 auto;/*Le centrage sur la page*/
+  
+}
+
+
+/* ==========================================================================
+   4. FOOTER
+   ========================================================================== */
+footer {
+    background-color: #222;
+    color: var(--white);
+    text-align: center;
+    padding: 2rem;
+    margin-top: auto;/* Le footer est poussé tout au fond de l'écran !*/
+}
+
+.social-links {
+    margin-top: 5px;
+}
+
+.social-links a {
+    color: var(--white);
+    margin: 0 10px;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.social-links a:hover {
+    color: var(--secondary-color);
+}
+
+
+

@@ -1,0 +1,112 @@
+/* --- SECTION À PROPOS --- */
+
+/* On centre le contenu au milieu du <main> */
+.about-container {
+    max-width: 800px;
+    margin: 0 auto; /*centre au mileiu de la page
+}
+
+/* Style du titre principal H2 */
+.about-container h2 {
+    font-size: 2.5rem;
+    color: var(--primary-color, #0055ff);
+    margin-bottom: 1.5rem;
+    border-bottom: 3px solid var(--primary-color, #0055ff);
+    padding-bottom: 10px;
+    display: inline-block;/*pour accepter les modification*/
+}
+
+/* Biographie principale */
+.bio-text p {
+    font-size: 1.15rem;
+    line-height: 1.7; /* Interligne aérée */
+    color: #444444;
+    margin-bottom: 2rem;
+}
+
+/* Zone des domaines d'intérêt */
+.bio-interests {
+    background-color: #f8f9fa; /* Fond gris très clair pour faire ressortir la zone */
+    padding: 25px;
+    border-radius: 8px;
+    border-left: 5px solid var(--primary-color, #0055ff); /* Petite barre colorée à gauche */
+    margin-bottom: 2.5rem;
+}
+
+.bio-interests h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #222222;
+}
+
+/* Style de la liste des compétences IoT / IA */
+.bio-interests ul {
+    list-style: none; /* Enlève les puces noires d'origine */
+    padding: 0;
+    margin: 0;
+}
+
+.bio-interests li {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #555555;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 25px; /* Espace pour mettre notre propre puce */
+}
+
+/* Astuce : On crée une jolie puce personnalisée en CSS */
+.bio-interests li::before {
+    content: "▹"; /* Petite flèche moderne */
+    position: absolute;
+    left: 0;
+    color: var(--primary-color, #0055ff);
+    font-weight: bold;
+}
+
+.bio-interests li:last-child {
+    margin-bottom: 0; /* Enlève la marge sur le dernier élément */
+}
+
+/* --- BOUTONS D'ACTION --- */
+.about-buttons {
+    display: flex;
+    gap: 20px; /* Espace entre les deux boutons */
+}
+
+/* Style universel des boutons */
+.btn {
+    display: inline-block;
+    text-decoration: none; /* Enlève le soulignement des liens */
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease; /* Animation fluide au survol */
+}
+
+/* Premier bouton : Découvrir mes projets (Plein) */
+.about-buttons .btn:first-child {
+    background-color: var(--primary-color, #0055ff);
+    color: white;
+    border: 2px solid var(--primary-color, #0055ff);
+}
+
+.about-buttons .btn:first-child:hover {
+    background-color: #0044cc; /* Devient un peu plus foncé au survol */
+    border-color: #0044cc;
+    transform: translateY(-2px); /* Petit effet de sursaut vers le haut */
+}
+
+/* Deuxième bouton : Me contacter (Transparent / Bordure) */
+.about-buttons .btn:last-child {
+    background-color: transparent;
+    color: var(--primary-color, #0055ff);
+    border: 2px solid var(--primary-color, #0055ff);
+}
+
+.about-buttons .btn:last-child:hover {
+    background-color: var(--primary-color, #0055ff);
+    color: white;
+    transform: translateY(-2px);
+}
