@@ -3,7 +3,7 @@
 /* On centre le contenu au milieu du <main> */
 .about-container {
     max-width: 800px;
-    margin: 0 auto; /*centre au mileiu de la page
+    margin: 0 auto; /*centre au mileiu de la page*/
 }
 
 /* Style du titre principal H2 */
