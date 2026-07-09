@@ -65,7 +65,12 @@ Pour consulter et modifier le projet sur votre machine :
 ## Optimisation SEO sur la page 
 
 <meta name="description" content="Bienvenue sur le  vCard de Mustapha. Futur diplômé en AEC Internet des objets (IoT) et Intelligence Artificielle, découvrez mon profil et mes compétences.">
-
 La balise <meta name="description"> sert à fournir un résumé textuel du contenu de votre page web aux moteurs de recherche
+
+les bonus:
+Mise en ligne sur un serveur web GitHub :https://mustapha-stack.github.io/vCard
+Effets supplémentaires sur la barre de navigation et sur les boutons
+Métadonnées SEO : sur la page accueil
+Utilisation de JavaScript  :Pour éviter la duplicationsur header , main et footer:structure.js
 
 
