@@ -62,3 +62,10 @@ Pour consulter et modifier le projet sur votre machine :
 3. Lancez le fichier `docs/index.html` dans votre navigateur (ou utilisez l'extension *Live Server*).
 
 
+## Optimisation SEO sur la page 
+
+<meta name="description" content="Bienvenue sur le  vCard de Mustapha. Futur diplômé en AEC Internet des objets (IoT) et Intelligence Artificielle, découvrez mon profil et mes compétences.">
+
+La balise <meta name="description"> sert à fournir un résumé textuel du contenu de votre page web aux moteurs de recherche
+
+
