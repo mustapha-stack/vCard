@@ -7,7 +7,7 @@ mes projets et mes articles de blog.
 
 Le site est accessible à l'adresse suivante :
 
-https://mustapha-stack.github.io/vCard
+https://mustapha-stack.github.io/vCard/
 
 ## Aperçu des pages
 
