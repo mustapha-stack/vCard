@@ -14,8 +14,7 @@ https://mustapha-stack.github.io/vCard
 ## 📁 Structure du Projet
 
 Voici l'organisation des fichiers du projet :
-
-```text
+ 
 VCARD/
 ├── .venv/                  # Environnement virtuel (à ignorer pour le déploiement)
 ├── 📁 css/                 # Feuilles de style pour chaque page
@@ -36,7 +35,7 @@ VCARD/
 ├── 📁 image/               # Médias et illustrations
 │   └── autochtones_quebec.jpg
 └── structure.js            # Pour éviter la duplication de code et l'affichage des éléments réutilisables sur toutes les pages HTML 
-```
+
 
 ##  Aperçu des Pages
 
@@ -57,20 +56,10 @@ VCARD/
 
 Pour consulter et modifier le projet sur votre machine :
 
-1. Clonez ou téléchargez le dossier du projet.
-2. Ouvrez le dossier dans votre éditeur de code (ex: VS Code).
-3. Lancez le fichier `docs/index.html` dans votre navigateur (ou utilisez l'extension *Live Server*).
+Clonez le dépôt GitHub :
 
+git clone https://github.com/mustapha-stack/vCard.git
 
-## Optimisation SEO sur la page 
+Ouvrez le dossier du projet dans votre éditeur de code (ex. : VS Code).
 
-<meta name="description" content="Bienvenue sur le  vCard de Mustapha. Futur diplômé en AEC Internet des objets (IoT) et Intelligence Artificielle, découvrez mon profil et mes compétences.">
-La balise <meta name="description"> sert à fournir un résumé textuel du contenu de votre page web aux moteurs de recherche
-
-les bonus:
-Mise en ligne sur un serveur web GitHub :https://mustapha-stack.github.io/vCard
-Effets supplémentaires sur la barre de navigation et sur les boutons
-Métadonnées SEO : sur la page accueil
-Utilisation de JavaScript  :Pour éviter la duplicationsur header , main et footer:structure.js
-
-
+Lancez le fichier docs/index.html dans votre navigateur ou utilisez l'extension Live Server de VS Code.
