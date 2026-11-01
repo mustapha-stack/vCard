@@ -1,65 +1,38 @@
 # VCARD - Portfolio Personnel
 
-Ce projet est un site web personnel (VCARD) structuré pour présenter mon profil, mon parcours, mes compétences et mes articles de blog. Le site est entièrement statique et optimisé pour être hébergé facilement (via GitHub Pages).
+Ce projet est un site web personnel (VCARD) conçu pour présenter mon profil, mon parcours, mes compétences, 
+mes projets et mes articles de blog.
 
+## Déploiement en ligne
 
-## Déploiement en Ligne
-
-Le site est accessible en ligne à l'adresse suivante :  
+Le site est accessible à l'adresse suivante :
 
 https://mustapha-stack.github.io/vCard
 
-*(Hébergé via GitHub Pages à partir du dossier `/docs`)*
+## Aperçu des pages
 
-## 📁 Structure du Projet
+- **Accueil (`index.html`)** : Présentation générale et introduction.
+- **Sur moi (`sur-moi.html`)** : Présentation personnelle, parcours et passions.
+- **CV (`cv.html`)** : Expériences professionnelles et compétences techniques.
+- **Portfolio (`portfolio.html`)** : Présentation de mes projets réalisés.
+- **Blog (`blog.html`)** : Articles et actualités.
+- **Contact (`contact.html`)** : Informations pour me joindre.
 
-Voici l'organisation des fichiers du projet :
- 
-VCARD/
-├── .venv/                  # Environnement virtuel (à ignorer pour le déploiement)
-├── 📁 css/                 # Feuilles de style pour chaque page
-│   ├── blog.css
-│   ├── contact.css
-│   ├── cv.css
-│   ├── index.css
-│   ├── portfolio.css
-│   ├── structure.css       # Styles généraux de la structure (header, footer, nav)
-│   └── sur-mois.css         
-├── 📁 docs/                # Pages HTML principales du site (Hébergement)
-│   ├── index.html          # Page d'accueil
-│   ├── sur-moi.html        # Présentation personnelle
-│   ├── cv.html             # Curriculum Vitae
-│   ├── portfolio.html      # Projets réalisés
-│   ├── blog.html           # Articles et actualités
-│   └── contact.html        # Formulaire de contact
-├── 📁 image/               # Médias et illustrations
-│   └── autochtones_quebec.jpg
-└── structure.js            # Pour éviter la duplication de code et l'affichage des éléments réutilisables sur toutes les pages HTML 
+## Technologies utilisées
 
+- **HTML5** : Structure des pages web.
+- **CSS3** : Mise en page et design adaptatif (responsive).
+- **JavaScript ** : Interactivité et gestion des éléments dynamiques.
 
-##  Aperçu des Pages
-
-*   **Accueil (`index.html`)** : Point d'entrée du site avec une introduction rapide.
-*   **Sur moi (`sur-moi.html`)** : Détails sur mes passions, mes valeurs et mon parcours.
-*   **CV (`cv.html`)** : Expériences professionnelles et compétences techniques.
-*   **Portfolio (`portfolio.html`)** : Galerie de mes réalisations.
-*   **Blog (`blog.html`)** : Partage d'articles et de réflexions.
-*   **Contact (`contact.html`)** : Moyen de me joindre directement.
-
-## Technologies Utilisées
-
-*   **HTML5** : Structure sémantique des pages.
-*   **CSS3** : Design adaptatif (*responsive*) et mise en page personnalisée.
-*   **JavaScript (Vanille)** : Gestion de la structure dynamique et de l'interactivité.
-
-## Installation Locale
+## Installation locale
 
 Pour consulter et modifier le projet sur votre machine :
 
-Clonez le dépôt GitHub :
+1. Clonez le dépôt GitHub :
 
-git clone https://github.com/mustapha-stack/vCard.git
+   git clone https://github.com/mustapha-stack/vCard.git
+ 
 
-Ouvrez le dossier du projet dans votre éditeur de code (ex. : VS Code).
+2. Ouvrez le dossier du projet dans votre éditeur de code (ex. : VS Code).
 
-Lancez le fichier docs/index.html dans votre navigateur ou utilisez l'extension Live Server de VS Code.
+3. Lancez le fichier `docs/index.html` dans votre navigateur ou utilisez l'extension **Live Server** de VS Code.
