@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+
+/* Responsive : passe l'image au-dessus du texte sur les petits écrans */
+@media (max-width: 768px) {
+    #hero {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        gap: 20px;
+        padding: 2rem 0;
+    }
+    
+    .hero-content {
+        text-align: center; /* Alignement centré sur mobile pour un meilleur visuel */
+    }
+}
+
+
+
