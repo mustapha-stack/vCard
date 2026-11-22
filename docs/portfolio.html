@@ -2,319 +2,206 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Mustapha Belhaouari | Portfolio</title>
+        <title>Mustapha Belhaouari | Portfolio</title>
 
-    <link rel="stylesheet" href="css/structure.css">
-    <link rel="stylesheet" href="css/Portfolio.css">
+        <link rel="stylesheet" href="css/structure.css">
+        <link rel="stylesheet" href="css/Portfolio.css">
 
-    <link rel="icon" type="image/jpeg"
-          href="image/autochtones_quebec.jpg">
-</head>
+        <link rel="icon" type="image/jpeg"
+            href="image/autochtones_quebec.jpg">
+    </head>
 
-<body>
+    <body>
 
-    <!-- En-tête -->
-    <header>
-    </header>
+        <!-- En-tête -->
+        <header>
+        </header>
 
-    <main>
+        <main>
 
-        <section class="portfolio-container">
+            <section class="portfolio-container">
 
-            <h2 class="portfolio-main-title">
-                Mes Projets & Réalisations
-            </h2>
+                <h2 class="portfolio-main-title">
+                    Mes Projets & Réalisations
+                </h2>
 
-            <p class="portfolio-subtitle">
-                Découvrez les projets que j'ai réalisés durant mon
-                apprentissage, combinant programmation, Internet des
-                objets (IoT), systèmes embarqués, développement web
-                et conception d'interfaces graphiques.
-            </p>
+                <p class="portfolio-subtitle">
+                    Découvrez les projets que j'ai réalisés durant mon
+                    apprentissage, combinant programmation, Internet des
+                    objets (IoT), développement web
+                    et conception d'interfaces graphiques.
+                </p>
 
+                <!-- Grille des projets -->
+                <div class="portfolio-grid">
 
-            <!-- Barre de filtrage -->
-            <div class="portfolio-filters">
+                    <!-- PROJET 4 : DOMOTIQUE INTELLIGENTE -->
+                    <div class="portfolio-card" data-category="iot">
 
-                <button class="filter-btn active-filter"
-                        data-filter="all">
-                    Tous
-                </button>
+                        <div class="portfolio-card-body">
 
-                <button class="filter-btn"
-                        data-filter="iot">
-                    IoT
-                </button>
+                            <div class="project-tags">
+                                <span class="tag-iot">
+                                    IoT
+                                </span>
+                            </div>
 
-                <button class="filter-btn"
-                        data-filter="ia">
-                    Intelligence Artificielle
-                </button>
+                            <h3>
+                                Conception et développement d’un système
+                                domotique intelligent avec MQTT et assistant
+                                vocal
+                            </h3>
 
-                <button class="filter-btn"
-                        data-filter="reseaux">
-                    Réseaux
-                </button>
+                            <p class="project-description">
+                                Le but de ce projet est de développer une maison
+                                connectée intelligente (Smart Home) permettant
+                                de surveiller et de contrôler les équipements
+                                domestiques à l’aide de capteurs et
+                                d’actionneurs. Grâce au protocole MQTT, le
+                                système automatise certaines tâches selon les
+                                conditions détectées. Il intègre également un
+                                assistant vocal en français permettant de
+                                commander la maison à la voix et de recevoir des
+                                réponses orales.
+                            </p>
 
-                <button class="filter-btn"
-                        data-filter="capteurs">
-                    Capteurs et actionneurs
-                </button>
+                            <div class="project-tech-stack">
+                                <span>Python</span>
+                                <span>MQTT</span>
+                                <span>Node-RED</span>
+                            </div>
 
-                <button class="filter-btn"
-                        data-filter="interface">
-                    Conception d'interfaces graphiques
-                </button>
+                            <div class="project-links">
+                                <a
+                                    href="https://github.com/mustapha-stack/Assistance-vocale.git"
+                                    class="btn-project-link">
+                                    Voir le projet sur GitHub
+                                </a>
+                            </div>
 
-                <button class="filter-btn"
-                        data-filter="web">
-                    Développement Web
-                </button>
-
-            </div>
-
-
-            <!-- Grille des projets -->
-            <div class="portfolio-grid">
-
-
-                <!-- PROJET 1 : SERVOMOTEUR -->
-                <div class="portfolio-card" data-category="capteurs">
-
-                    <div class="portfolio-card-body">
-
-                        <div class="project-tags">
-                            <span class="tag-iot">
-                                CAPTEURS ET ACTIONNEURS
-                            </span>
                         </div>
-
-                        <h3>
-                            Contrôle d'un servomoteur avec deux boutons poussoirs
-                        </h3>
-
-                        <p class="project-description">
-                            Conception et déploiement d'un système embarqué
-                            autonome permettant de piloter avec précision
-                            la position angulaire d'un servomoteur.
-
-                            Ce projet intègre deux modes de contrôle
-                            distincts : manuel par boutons poussoirs
-                            et numérique par clavier, associés à un
-                            retour d'information télémétrique en temps réel.
-                        </p>
-
-                        <div class="project-tech-stack">
-                            <span>C++</span>
-                            <span>Arduino</span>
-                        </div>
-
-                        <div class="project-links">
-                            <a href="https://github.com"
-                               target="_blank"
-                               rel="noopener noreferrer"
-                               class="btn-project-link">
-                                Code source
-                            </a>
-                        </div>
-
                     </div>
+
+                    <!-- PROJET 5 : PLATEFORME DE FORMATION EN LIGNE -->
+                    <div class="portfolio-card" data-category="web">
+
+                        <div class="portfolio-card-body">
+
+                            <div class="project-tags">
+                                <span class="tag-network">
+                                    DÉVELOPPEMENT WEB
+                                </span>
+                            </div>
+
+                            <h3>
+                                Portail web des formations
+                            </h3>
+
+                            <p class="project-description">
+                                Développement d’une plateforme web permettant de
+                                consulter un catalogue de formations et
+                                leurs détails. Réalisé dans le cadre de la
+                                formation en Internet des objets (IoT) et
+                                en intelligence artificielle (IA), au Collège
+                                Ahuntsic.
+                                Ce projet m’a permis de renforcer mes
+                                compétences en HTML, CSS, JavaScript et JSON.
+                            </p>
+
+                            <div class="project-tech-stack">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>JSON</span>
+                                <span>Fetch API</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a
+                                    href="https://github.com/mustapha-stack/formation-en-ligne.git"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="btn-project-link">
+                                    Voir le projet sur GitHub
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="portfolio-card" data-category="web">
+
+                        <div class="portfolio-card-body">
+
+                            <div class="project-tags">
+                                <span class="tag-network">
+                                    Système de supervision en temps réel
+                                </span>
+                            </div>
+
+                            <h3>
+                                Application de supervision IoT et d’analyse des
+                                données des capteurs
+                            </h3>
+
+                            <p class="project-description">
+                                Consiste à développer une application permettant
+                                de surveiller des capteurs, de recevoir leurs
+                                mesures en temps réel, de consulter leur
+                                historique et de visualiser des statistiques à
+                                travers un tableau de bord.
+
+                                L'application repose sur une architecture
+                                composée d'un ESP32 émulé avec Velxio, d'un
+                                broker MQTT EMQX, d'un serveur Node.js et d'une
+                                base de données MongoDB Atlas.
+
+                                Le système utilise un capteur DHT22 simulé pour
+                                transmettre les données de température et
+                                d'humidité.
+                            </p>
+
+                            <div class="project-tech-stack">
+                                <span>Serveur : Node.js / Express.js</span>
+                                <span>MongoDB Atlas</span>
+                                <span>MQTT / EMQX</span>
+                                <span>ESP32 (émulé avec Velxio)</span>
+                                <span>HTML / CSS / JavaScript</span>
+                                <span>Capteur : DHT22</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a
+                                    href="https://github.com/mustapha-stack/systeme-supervision.git"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="btn-project-link">
+                                    Voir le projet sur GitHub
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
 
+            </section>
 
-                <!-- PROJET 2 : PARKING INTELLIGENT -->
-                <div class="portfolio-card" data-category="iot">
+        </main>
 
-                    <div class="portfolio-card-body">
+        <!-- Pied de page -->
+        <footer>
+        </footer>
 
-                        <div class="project-tags">
-                            <span class="tag-iot">
-                                IoT
-                            </span>
-                        </div>
+        <!-- Structure du site -->
+        <script src="structure.js"></script>
 
-                        <h3>
-                            Système de gestion de parking automatique intelligent
-                        </h3>
-
-                        <p class="project-description">
-                            Développement d'une application de supervision
-                            et de contrôle pour un parking automatisé.
-
-                            Ce projet combine une architecture logicielle
-                            MVC, une interface graphique dynamique et
-                            une gestion matérielle sécurisée à l'aide
-                            d'une machine à états finis.
-                        </p>
-
-                        <div class="project-tech-stack">
-                            <span>Python</span>
-                            <span>Raspberry Pi</span>
-                        </div>
-
-                        <div class="project-links">
-                            <a href="https://github.com"
-                               target="_blank"
-                               rel="noopener noreferrer"
-                               class="btn-project-link">
-                                Voir le projet sur GitHub
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <!-- PROJET 3 : INTERFACES GRAPHIQUES -->
-                <div class="portfolio-card" data-category="interface">
-
-                    <div class="portfolio-card-body">
-
-                        <div class="project-tags">
-                            <span class="tag-network">
-                                CONCEPTION D'INTERFACES GRAPHIQUES
-                            </span>
-                        </div>
-
-                        <h3>
-                            Conception d'interfaces graphiques
-                        </h3>
-
-                        <p class="project-description">
-                            Conception d'interfaces cohérentes et
-                            esthétiques en harmonisant les éléments
-                            graphiques, les couleurs et la typographie.
-
-                            L'objectif est de créer des interfaces
-                            modernes, intuitives et faciles à utiliser,
-                            en respectant les principes du design UI.
-                        </p>
-
-                        <div class="project-tech-stack">
-                            <span>Figma</span>
-                        </div>
-
-                        <div class="project-links">
-                            <a href="#"
-                               class="btn-project-link">
-                                Voir le projet
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <!-- PROJET 4 : DOMOTIQUE INTELLIGENTE -->
-                <div class="portfolio-card" data-category="iot">
-
-                    <div class="portfolio-card-body">
-
-                        <div class="project-tags">
-                            <span class="tag-iot">
-                                IoT
-                            </span>
-                        </div>
-
-                        <h3>
-                            Système domotique intelligent
-                        </h3>
-
-                        <p class="project-description">
-                            Conception et déploiement d'une infrastructure
-                            logicielle autonome pour la surveillance
-                            et l'automatisation d'une résidence,
-                            pièce par pièce.
-
-                            Le système repose sur une architecture
-                            réseau événementielle décentralisée et
-                            utilise le protocole MQTT pour assurer
-                            la communication entre les composants.
-                        </p>
-
-                        <div class="project-tech-stack">
-                            <span>Python</span>
-                            <span>MQTT</span>
-                        </div>
-
-                        <div class="project-links">
-                            <a href="#"
-                               class="btn-project-link">
-                                Voir le projet
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <!-- PROJET 5 : PLATEFORME DE FORMATION EN LIGNE -->
-                <div class="portfolio-card" data-category="web">
-
-                    <div class="portfolio-card-body">
-
-                        <div class="project-tags">
-                            <span class="tag-network">
-                                DÉVELOPPEMENT WEB
-                            </span>
-                        </div>
-
-                        <h3>
-                            Portail web des formations
-                        </h3>
-
-                        <p class="project-description">
-                           Développement d’une plateforme web permettant de consulter un catalogue de formations et
-                            leurs détails. Réalisé dans le cadre de la formation en Internet des objets (IoT) et
-                            en intelligence artificielle (IA), au Collège Ahuntsic.
-                            Ce projet m’a permis de renforcer mes compétences en HTML, CSS, JavaScript et JSON.
-                        </p>
-
-                        <div class="project-tech-stack">
-                            <span>HTML5</span>
-                            <span>CSS3</span>
-                            <span>JavaScript</span>
-                            <span>JSON</span>
-                            <span>Fetch API</span>
-                        </div>
-
-                     <div class="project-links">
-            <a href="https://github.com/mustapha-stack/formation-en-ligne.git"
-
-
-               target="_blank"
-               rel="noopener noreferrer"
-               class="btn-project-link">
-                Voir le projet sur GitHub
-            </a>
-        </div>
-
-                    </div>
-                </div>
-
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <!-- Pied de page -->
-    <footer>
-    </footer>
-
-
-    <!-- Structure du site -->
-    <script src="structure.js"></script>
-
-
-    <!-- Filtrage des projets -->
-    <script>
+        <!-- Filtrage des projets -->
+        <script>
 
         const filterButtons =
             document.querySelectorAll(".filter-btn");
@@ -364,5 +251,5 @@
 
     </script>
 
-</body>
+    </body>
 </html>

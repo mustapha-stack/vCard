@@ -1,52 +1,345 @@
+
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio vCard | Sur moi</title>
-    
-     <link rel="stylesheet" href="css/structure.css">
- <link rel="stylesheet" href="css/sur-moi.css">
-   <link rel="icon" type="image/jpeg" href="image/autochtones_quebec.jpg">
-      
-</head>
-<body>
 
-    <header> </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Mon Portfolio | À propos de moi</title>
+
+        <link rel="stylesheet" href="css/structure.css">
+        <link rel="stylesheet" href="css/sur-moi.css">
+
+        <link rel="icon" type="image/jpeg"
+            href="image/autochtones_quebec.jpg">
+    </head>
+
+    <body>
+
+        <header></header>
 
         <main>
-        <section id="about-section">
-            <div class="about-container">
-                <h2>À propos de moi</h2>
-                
-                <!-- Biographie principale -->
-                <div class="bio-text">
-                  <p>Futur diplômé en <strong>AEC IOT et Intelligence Artificielle</strong>, Passionné par l'Internet des Objets (IoT), je conçois et déploie des solutions connectées intelligentes pour lier le monde physique au numérique. Mon objectif : transformer les données des capteurs en sources de performance et d'innovation. </p>
+
+            <section id="about-section">
+
+                <div class="about-container">
+
+                    <!-- Profil professionnel -->
+                    <div class="about-intro">
+
+                        <div class="about-header">
+
+                            <h1>Mon profil professionnel</h1>
+
+                            <a href="documents/CV.pdf"
+                                class="btn btn-cv"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Voir mon CV (PDF)
+                            </a>
+
+                        </div>
+
+                        <p>
+                            Étudiant en AEC intensive de 1 230 heures en
+                            Internet des objets (IoT), intelligence artificielle
+                            et développement d'applications au Collège Ahuntsic,
+                            je possède une solide expérience professionnelle
+                            en systèmes informatiques et en télécommunications.
+
+                            Titulaire de la certification internationale
+                            <strong>PCEP – Certified Entry-Level Python
+                                Programmer</strong>,
+                            délivrée par le Python Institute, je maîtrise les
+                            bases
+                            de la programmation Python et possède des
+                            connaissances
+                            en JavaScript, en réseautique, en bases de données
+                            et en technologies IoT.
+                        </p>
+
+                        <p>
+                            Mon parcours comme ingénieur systèmes chez Sonatrach
+                            et technicien en télécommunications à temps partiel
+                            chez BST Bell depuis 2024 m'a permis de développer
+                            une expertise en configuration d'équipements réseau,
+                            en diagnostic, en résolution de problèmes techniques
+                            et en maintenance des systèmes.
+                        </p>
+
+                        <p>
+                            Rigoureux, polyvalent et doté d'un bon esprit
+                            d'analyse,
+                            je souhaite mettre à profit mon expérience et mes
+                            compétences techniques dans le cadre d'un stage en
+                            développement logiciel, en IoT ou en intelligence
+                            artificielle.
+                        </p>
+
+                    </div>
+
+                    <!-- Compétences techniques -->
+                    <div class="bio-interests">
+
+                        <h2>Mes compétences techniques</h2>
+
+                        <div class="interest-grid">
+
+                            <article class="interest-card">
+                                <h3>Internet des objets (IoT)</h3>
+                                <p>
+                                    Raspberry Pi, Arduino, ESP32,
+                                    programmation de systèmes embarqués,
+                                    intégration de capteurs et d'actionneurs
+                                    et communication MQTT.
+                                </p>
+                            </article>
+
+                            <article class="interest-card">
+                                <h3>Intelligence artificielle</h3>
+                                <p>
+                                    Machine Learning, apprentissage supervisé
+                                    et non supervisé, classification,
+                                    régression et clustering avec K-means.
+                                </p>
+                            </article>
+
+                            <article class="interest-card">
+                                <h3>Programmation et développement</h3>
+                                <p>
+                                    Python, JavaScript, HTML et CSS.
+                                    Développement de scripts, programmation
+                                    et création d'applications.
+                                </p>
+                            </article>
+
+                            <article class="interest-card">
+                                <h3>Bibliothèques et outils IA</h3>
+                                <p>
+                                    Scikit-learn, Pandas, NumPy et K-means.
+                                    Manipulation, traitement et analyse
+                                    des données.
+                                </p>
+                            </article>
+
+                            <article class="interest-card">
+                                <h3>Bases de données</h3>
+                                <p>
+                                    MongoDB Atlas (NoSQL), MariaDB,
+                                    stockage des données et exécution
+                                    de requêtes.
+                                </p>
+                            </article>
+
+                            <article class="interest-card">
+                                <h3>Systèmes et environnements</h3>
+                                <p>
+                                    GitHub, Docker, VMware, Node.js,
+                                    Visual Studio et PyCharm.
+                                </p>
+                            </article>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Expérience professionnelle -->
+                    <div class="experience-section">
+
+                        <h2>Mon expérience professionnelle</h2>
+
+                        <div class="experience-item">
+
+                            <h3>
+                                Technicien en télécommunications –
+                                BST Bell
+                            </h3>
+
+                            <p>
+                                <strong>Depuis 2024 | Montréal, Québec</strong>
+                            </p>
+
+                            <ul>
+                                <li>
+                                    Installer et configurer des équipements
+                                    de télécommunication.
+                                </li>
+
+                                <li>
+                                    Diagnostiquer et résoudre des problèmes
+                                    techniques.
+                                </li>
+
+                                <li>
+                                    Vérifier la qualité et le bon fonctionnement
+                                    des services installés.
+                                </li>
+
+                                <li>
+                                    Respecter les procédures de sécurité
+                                    et les normes techniques.
+                                </li>
+
+                                <li>
+                                    Communiquer avec les clients afin
+                                    d'identifier leurs besoins et de résoudre
+                                    les problèmes.
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="experience-item">
+
+                            <h3>Ingénieur systèmes – Sonatrach</h3>
+
+                            <p>
+                                <strong>
+                                    Décembre 2009 – Avril 2022 |
+                                    Oran, Algérie
+                                </strong>
+                            </p>
+
+                            <ul>
+                                <li>
+                                    Développer et implanter des solutions
+                                    logicielles adaptées aux besoins internes.
+                                </li>
+
+                                <li>
+                                    Installer et configurer des équipements
+                                    Cisco, notamment des commutateurs
+                                    et des routeurs.
+                                </li>
+
+                                <li>
+                                    Intervenir sur les équipements
+                                    de transmission OTN.
+                                </li>
+
+                                <li>
+                                    Former les employés sur les nouveaux
+                                    systèmes et outils informatiques.
+                                </li>
+
+                                <li>
+                                    Superviser et assurer la maintenance
+                                    des réseaux de transmission par fibre
+                                    optique.
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Certifications -->
+                    <div class="experience-section">
+
+                        <h2>Mes certifications professionnelles</h2>
+
+                        <div class="experience-item">
+
+                            <h3>
+                                PCEP™ – Certified Entry-Level Python Programmer
+                            </h3>
+
+                            <p>
+                                <strong>Python Institute | 2026</strong>
+                            </p>
+
+                            <p>
+                                Certification officielle PCEP-30-03 attestant
+                                de mes connaissances fondamentales en
+                                programmation Python, notamment les variables,
+                                les structures de contrôle, les fonctions
+                                et les bases de la programmation.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Formation -->
+                    <div class="experience-section">
+
+                        <h2>Ma formation académique</h2>
+
+                        <div class="experience-item">
+
+                            <h3>
+                                AEC – Internet des objets et intelligence
+                                artificielle (LEA.DP)
+                            </h3>
+
+                            <p>
+                                <strong>En cours | Collège Ahuntsic</strong>
+                                <br>
+                                Montréal, Québec
+                            </p>
+
+                        </div>
+
+                        <div class="experience-item">
+
+                            <h3>
+                                DEP – Réparation d'équipement et
+                                de télécommunications
+                            </h3>
+
+                            <p>
+                                <strong>2024</strong>
+                                <br>
+                                Centre de formation professionnelle
+                                Léonard-De Vinci – Montréal, Québec
+                            </p>
+
+                        </div>
+
+                        <div class="experience-item">
+
+                            <h3>
+                                Maîtrise en sciences informatiques
+                            </h3>
+
+                            <p>
+                                <strong>2007</strong>
+                                <br>
+                                Université de Mostaganem – Algérie
+                            </p>
+
+                        </div>
+
+                        <div class="experience-item">
+
+                            <h3>
+                                Évaluation comparative des diplômes (MIFI)
+                            </h3>
+
+                            <p>
+                                <strong>2025</strong>
+                            </p>
+
+                            <p>
+                                Équivalence obtenue :
+                                Baccalauréat en génie informatique et
+                                de la construction des ordinateurs.
+                            </p>
+
+                        </div>
+
+                    </div>
+
                 </div>
 
-                <!-- Domaines d'intérêt rapides réorganisés -->
-                <div class="bio-interests">
-                    <h3>Mes domaines de prédilection :</h3>
-                    <ul>
-                        <li><strong>Internet des Objets (IoT) :</strong> Conception de solutions connectées, sélection de capteurs et programmation de microcontrôleurs.</li>
-                        <li><strong>Intelligence Artificielle (IA) :</strong>  Intégration de modèles de Machine Learning directement sur les objets connectés pour le traitement de données en temps réel.</li>
-                        <li><strong>Connectivité & Réseaux :</strong> Maîtrise des protocoles de communication (MQTT,HTTP) et Configuration de switches, routage de données et gestion LAN/WAN.</li>
-                    </ul>
-                </div>
+            </section>
 
-                <!-- Boutons d'action -->
-                <div class="about-buttons">
-                    <a href="portfolio.html" class="btn">Découvrir mes projets</a>
-                    <a href="contact.html" class="btn">Me contacter</a>
-                </div>
-            </div>
-        </section>
-    </main>
+        </main>
 
+        <footer></footer>
 
-    <footer>
-     
-    </footer>
-<script src="structure.js"></script>
-</body>
+        <script src="structure.js"></script>
+
+    </body>
 </html>

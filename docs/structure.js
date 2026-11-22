@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
         <nav>
             <ul>
                 <li><a href="index.html" class="nav-link">Accueil</a></li>
-                <li><a href="sur-moi.html" class="nav-link">Sur moi</a></li>
-                <li><a href="cv.html" class="nav-link">CV</a></li>
+                <li><a href="sur-moi.html" class="nav-link">CV</a></li>
+                
                 <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
                 <li><a href="blog.html" class="nav-link">Blog</a></li>
                 <li><a href="contact.html" class="nav-link">Contact</a></li>
@@ -24,11 +24,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const footerElement = document.querySelector("footer");
     if (footerElement) {
         footerElement.innerHTML = `
-            <p>&copy; 2026 mustapha Belhaouari. Tous droits réservés.</p>
+            <p>&copy; 2026 Mustapha Belhaouari. Tous droits réservés.</p>
             <div class="social-links">
-               <a href="https://ca.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
-                <a href="https://mustapha-stack.github.io/vCard/" target="_blank" rel="noopener">GitHub</a>
-                <a href="https://x.com/?lang=en-ca" target="_blank" rel="noopener">Twitter</a>
+               <a  href="https://www.linkedin.com/in/mustapha-belhaouari-89310a183/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/mustapha-stack/" target="_blank" rel="noopener">GitHub</a>
+              
             </div>
         `;
     }
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // 3. Gestion automatique de la classe "active" sur les liens
     const currentPage = window.location.pathname.split("/").pop() || "index.html";
     const links = document.querySelectorAll(".nav-link");
-    
+
     links.forEach(link => {
         if (link.getAttribute("href") === currentPage) {
             link.classList.add("active");
